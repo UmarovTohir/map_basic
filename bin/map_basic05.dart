@@ -6,10 +6,11 @@ Then return the map.
 
 */
 
-Map func() {
-  return;
+Map func(String name1, String name2) {
+  Map a={name1: name2};
+  return a;
 }
 
 void main() {
-  print(func());
+  print(func('Tohir','Umarov'));
 }
